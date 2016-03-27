@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3E85DFE1CA8081B0081647D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E85DFD1CA8081B0081647D /* AppDelegate.swift */; };
+		D3E85E001CA8081B0081647D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E85DFF1CA8081B0081647D /* ViewController.swift */; };
+		D3E85E031CA8081B0081647D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E85E011CA8081B0081647D /* Main.storyboard */; };
+		D3E85E051CA8081B0081647D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E85E041CA8081B0081647D /* Assets.xcassets */; };
+		D3E85E081CA8081B0081647D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E85E061CA8081B0081647D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3E85DFA1CA8081B0081647D /* Venatus_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venatus_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E85DFD1CA8081B0081647D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3E85DFF1CA8081B0081647D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3E85E021CA8081B0081647D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3E85E041CA8081B0081647D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3E85E071CA8081B0081647D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3E85E091CA8081B0081647D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E85DF71CA8081B0081647D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3E85DF11CA8081B0081647D = {
+			isa = PBXGroup;
+			children = (
+				D3E85DFC1CA8081B0081647D /* Venatus_Chat */,
+				D3E85DFB1CA8081B0081647D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E85DFB1CA8081B0081647D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E85DFA1CA8081B0081647D /* Venatus_Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E85DFC1CA8081B0081647D /* Venatus_Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D3E85DFD1CA8081B0081647D /* AppDelegate.swift */,
+				D3E85DFF1CA8081B0081647D /* ViewController.swift */,
+				D3E85E011CA8081B0081647D /* Main.storyboard */,
+				D3E85E041CA8081B0081647D /* Assets.xcassets */,
+				D3E85E061CA8081B0081647D /* LaunchScreen.storyboard */,
+				D3E85E091CA8081B0081647D /* Info.plist */,
+			);
+			path = Venatus_Chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E85DF91CA8081B0081647D /* Venatus_Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E85E0C1CA8081B0081647D /* Build configuration list for PBXNativeTarget "Venatus_Chat" */;
+			buildPhases = (
+				D3E85DF61CA8081B0081647D /* Sources */,
+				D3E85DF71CA8081B0081647D /* Frameworks */,
+				D3E85DF81CA8081B0081647D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Venatus_Chat;
+			productName = Venatus_Chat;
+			productReference = D3E85DFA1CA8081B0081647D /* Venatus_Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E85DF21CA8081B0081647D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Brian;
+				TargetAttributes = {
+					D3E85DF91CA8081B0081647D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = DX4U3PZ2E7;
+					};
+				};
+			};
+			buildConfigurationList = D3E85DF51CA8081B0081647D /* Build configuration list for PBXProject "Venatus_Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3E85DF11CA8081B0081647D;
+			productRefGroup = D3E85DFB1CA8081B0081647D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E85DF91CA8081B0081647D /* Venatus_Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E85DF81CA8081B0081647D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E85E081CA8081B0081647D /* LaunchScreen.storyboard in Resources */,
+				D3E85E051CA8081B0081647D /* Assets.xcassets in Resources */,
+				D3E85E031CA8081B0081647D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E85DF61CA8081B0081647D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E85E001CA8081B0081647D /* ViewController.swift in Sources */,
+				D3E85DFE1CA8081B0081647D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3E85E011CA8081B0081647D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E85E021CA8081B0081647D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3E85E061CA8081B0081647D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E85E071CA8081B0081647D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3E85E0A1CA8081B0081647D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3E85E0B1CA8081B0081647D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E85E0D1CA8081B0081647D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Venatus_Chat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Briames.Venatus-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3E85E0E1CA8081B0081647D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Venatus_Chat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Briames.Venatus-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E85DF51CA8081B0081647D /* Build configuration list for PBXProject "Venatus_Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E85E0A1CA8081B0081647D /* Debug */,
+				D3E85E0B1CA8081B0081647D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E85E0C1CA8081B0081647D /* Build configuration list for PBXNativeTarget "Venatus_Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E85E0D1CA8081B0081647D /* Debug */,
+				D3E85E0E1CA8081B0081647D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E85DF21CA8081B0081647D /* Project object */;
+}

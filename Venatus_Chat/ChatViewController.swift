@@ -13,7 +13,6 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet weak var chatField: UITextField!
     @IBOutlet weak var sendButton: UIButton!
     @IBOutlet weak var chatView: UITableView!
-    @IBOutlet var keyboardTap: UITapGestureRecognizer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +44,15 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     }*/
   
+    @IBAction func beganEdit(sender: UITextField) {
+        print("Began editing gets called")
+    }
+    
+    
+    @IBAction func editingIsEnding(sender: UITextField) {
+        print("editing is ending gets called")
+    }
+    
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let cell = 20
@@ -67,6 +75,10 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
    
     }
   
+    @IBAction func tapGesture(sender: UITapGestureRecognizer) {
+        print("Tap called")
+        chatField.resignFirstResponder()
+    }
 
 
     

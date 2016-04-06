@@ -1,0 +1,34 @@
+//
+//  ChatTableViewCell.swift
+//  Venatus_Chat
+//
+//  Created by Brian on 3/27/16.
+//  Copyright © 2016 Brian. All rights reserved.
+//
+
+import UIKit
+
+class ChatTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var groupLabel: UILabel!
+    @IBOutlet weak var chatLabel: UILabel!
+    
+   
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        // Initialization code
+    }
+
+    override func setSelected(selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+     func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        
+    }
+
+}

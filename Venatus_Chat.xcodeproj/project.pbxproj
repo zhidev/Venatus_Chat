@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36735391CA8A31000B39F1E /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36735381CA8A31000B39F1E /* ContactsTableViewCell.swift */; };
+		D367353B1CA8A31F00B39F1E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367353A1CA8A31F00B39F1E /* ContactsViewController.swift */; };
 		D3E85DFE1CA8081B0081647D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E85DFD1CA8081B0081647D /* AppDelegate.swift */; };
-		D3E85E001CA8081B0081647D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E85DFF1CA8081B0081647D /* ViewController.swift */; };
 		D3E85E031CA8081B0081647D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E85E011CA8081B0081647D /* Main.storyboard */; };
 		D3E85E051CA8081B0081647D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E85E041CA8081B0081647D /* Assets.xcassets */; };
 		D3E85E081CA8081B0081647D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E85E061CA8081B0081647D /* LaunchScreen.storyboard */; };
+		D3E85E121CA808450081647D /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E85E111CA808450081647D /* Chat.swift */; };
+		D3E85E141CA8084F0081647D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E85E131CA8084F0081647D /* Contact.swift */; };
+		D3E85E161CA8085E0081647D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E85E151CA8085E0081647D /* ChatViewController.swift */; };
+		D3E85E1A1CA808830081647D /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E85E191CA808830081647D /* ChatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D36735381CA8A31000B39F1E /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		D367353A1CA8A31F00B39F1E /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		D3E85DFA1CA8081B0081647D /* Venatus_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venatus_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E85DFD1CA8081B0081647D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3E85DFF1CA8081B0081647D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3E85E021CA8081B0081647D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3E85E041CA8081B0081647D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3E85E071CA8081B0081647D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3E85E091CA8081B0081647D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E85E111CA808450081647D /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		D3E85E131CA8084F0081647D /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D3E85E151CA8085E0081647D /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D3E85E191CA808830081647D /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		D3E85DFC1CA8081B0081647D /* Venatus_Chat */ = {
 			isa = PBXGroup;
 			children = (
+				D3E85E101CA808360081647D /* Modals */,
+				D3E85E0F1CA8082B0081647D /* Views */,
 				D3E85DFD1CA8081B0081647D /* AppDelegate.swift */,
-				D3E85DFF1CA8081B0081647D /* ViewController.swift */,
 				D3E85E011CA8081B0081647D /* Main.storyboard */,
 				D3E85E041CA8081B0081647D /* Assets.xcassets */,
 				D3E85E061CA8081B0081647D /* LaunchScreen.storyboard */,
 				D3E85E091CA8081B0081647D /* Info.plist */,
 			);
 			path = Venatus_Chat;
+			sourceTree = "<group>";
+		};
+		D3E85E0F1CA8082B0081647D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3E85E151CA8085E0081647D /* ChatViewController.swift */,
+				D3E85E191CA808830081647D /* ChatTableViewCell.swift */,
+				D36735381CA8A31000B39F1E /* ContactsTableViewCell.swift */,
+				D367353A1CA8A31F00B39F1E /* ContactsViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D3E85E101CA808360081647D /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				D3E85E111CA808450081647D /* Chat.swift */,
+				D3E85E131CA8084F0081647D /* Contact.swift */,
+			);
+			name = Modals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E85E001CA8081B0081647D /* ViewController.swift in Sources */,
+				D3E85E141CA8084F0081647D /* Contact.swift in Sources */,
+				D367353B1CA8A31F00B39F1E /* ContactsViewController.swift in Sources */,
 				D3E85DFE1CA8081B0081647D /* AppDelegate.swift in Sources */,
+				D36735391CA8A31000B39F1E /* ContactsTableViewCell.swift in Sources */,
+				D3E85E161CA8085E0081647D /* ChatViewController.swift in Sources */,
+				D3E85E1A1CA808830081647D /* ChatTableViewCell.swift in Sources */,
+				D3E85E121CA808450081647D /* Chat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +323,7 @@
 				D3E85E0E1CA8081B0081647D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
